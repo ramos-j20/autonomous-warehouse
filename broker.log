@@ -1,0 +1,118 @@
+[2025-12-16 16:23:29,980] amqtt.contexts {contexts.py:192} WARNING - sys_interval is deprecated, use 'plugins' to define configuration
+[2025-12-16 16:23:29,980] amqtt.contexts {contexts.py:195} WARNING - 'auth' and 'topic-check' are deprecated, use 'plugins' to define configuration
+[2025-12-16 16:23:30,178] amqtt.broker.plugins.auth_file {authentication.py:58} WARNING - Configuration parameter 'password-file' not found
+[2025-12-16 16:23:30,242] transitions.core {core.py:1175} INFO - Executed callback '<bound method Broker._log_state_change of <amqtt.broker.Broker object at 0x0000016FB6CE5940>>'
+[2025-12-16 16:23:30,242] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:23:30,242] transitions.core {core.py:131} INFO - Finished processing state starting enter callbacks.
+[2025-12-16 16:23:30,244] amqtt.broker {broker.py:297} INFO - Listener 'default' bind to 0.0.0.0:1883 (max_connections=0)
+[2025-12-16 16:23:30,244] transitions.core {core.py:137} INFO - Finished processing state starting exit callbacks.
+[2025-12-16 16:23:30,244] transitions.core {core.py:131} INFO - Finished processing state started enter callbacks.
+[2025-12-16 16:23:30,245] amqtt.broker {broker.py:351} INFO - Starting session expiration monitor.
+[2025-12-16 16:25:00,341] amqtt.broker {broker.py:74} INFO - Listener 'default': 1/\u221e connections acquired
+[2025-12-16 16:25:00,342] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54845 on listener 'default'
+[2025-12-16 16:25:00,343] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:00,343] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=gateway-G2021231020-1765902298, state=connected)>'
+[2025-12-16 16:25:00,343] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:00,343] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:00,616] amqtt.broker {broker.py:74} INFO - Listener 'default': 2/\u221e connections acquired
+[2025-12-16 16:25:00,616] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54847 on listener 'default'
+[2025-12-16 16:25:00,617] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:00,617] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=coordinator-G2021231020-1765902298, state=connected)>'
+[2025-12-16 16:25:00,617] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:00,617] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:02,578] amqtt.broker {broker.py:74} INFO - Listener 'default': 3/\u221e connections acquired
+[2025-12-16 16:25:02,578] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54851 on listener 'default'
+[2025-12-16 16:25:02,593] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:02,593] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=monitor-G2021231020-1765902300, state=connected)>'
+[2025-12-16 16:25:02,593] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:02,593] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:04,551] amqtt.broker {broker.py:74} INFO - Listener 'default': 4/\u221e connections acquired
+[2025-12-16 16:25:04,552] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54852 on listener 'default'
+[2025-12-16 16:25:04,567] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:04,567] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=debugger-G2021231020-1765902302, state=connected)>'
+[2025-12-16 16:25:04,567] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:04,567] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:06,649] amqtt.broker {broker.py:74} INFO - Listener 'default': 5/\u221e connections acquired
+[2025-12-16 16:25:06,650] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54855 on listener 'default'
+[2025-12-16 16:25:06,666] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:06,666] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-AMR-1-306, state=connected)>'
+[2025-12-16 16:25:06,666] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:06,667] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:08,630] amqtt.broker {broker.py:74} INFO - Listener 'default': 6/\u221e connections acquired
+[2025-12-16 16:25:08,630] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54861 on listener 'default'
+[2025-12-16 16:25:08,644] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:08,645] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-AMR-2-734, state=connected)>'
+[2025-12-16 16:25:08,645] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:08,645] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:10,598] amqtt.broker {broker.py:74} INFO - Listener 'default': 7/\u221e connections acquired
+[2025-12-16 16:25:10,598] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54865 on listener 'default'
+[2025-12-16 16:25:10,599] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:10,599] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-AMR-3-328, state=connected)>'
+[2025-12-16 16:25:10,599] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:10,599] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:12,552] amqtt.broker {broker.py:74} INFO - Listener 'default': 8/\u221e connections acquired
+[2025-12-16 16:25:12,552] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54876 on listener 'default'
+[2025-12-16 16:25:12,553] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:12,553] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-AMR-4-905, state=connected)>'
+[2025-12-16 16:25:12,553] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:12,553] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:14,567] amqtt.broker {broker.py:74} INFO - Listener 'default': 9/\u221e connections acquired
+[2025-12-16 16:25:14,567] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54879 on listener 'default'
+[2025-12-16 16:25:14,568] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:14,568] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-S1-524, state=connected)>'
+[2025-12-16 16:25:14,568] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:14,569] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:16,611] amqtt.broker {broker.py:74} INFO - Listener 'default': 10/\u221e connections acquired
+[2025-12-16 16:25:16,611] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54884 on listener 'default'
+[2025-12-16 16:25:16,612] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:16,612] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-S2-392, state=connected)>'
+[2025-12-16 16:25:16,612] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:16,612] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:18,575] amqtt.broker {broker.py:74} INFO - Listener 'default': 11/\u221e connections acquired
+[2025-12-16 16:25:18,575] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54888 on listener 'default'
+[2025-12-16 16:25:18,575] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:18,575] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-S3-202, state=connected)>'
+[2025-12-16 16:25:18,575] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:18,576] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:20,546] amqtt.broker {broker.py:74} INFO - Listener 'default': 12/\u221e connections acquired
+[2025-12-16 16:25:20,547] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:54891 on listener 'default'
+[2025-12-16 16:25:20,547] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:20,548] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-S4-557, state=connected)>'
+[2025-12-16 16:25:20,548] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:20,548] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:22,602] amqtt.broker {broker.py:74} INFO - Listener 'default': 13/\u221e connections acquired
+[2025-12-16 16:25:22,602] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:51307 on listener 'default'
+[2025-12-16 16:25:22,603] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:22,603] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-S5-865, state=connected)>'
+[2025-12-16 16:25:22,603] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:22,603] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:24,552] amqtt.broker {broker.py:74} INFO - Listener 'default': 14/\u221e connections acquired
+[2025-12-16 16:25:24,552] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:51310 on listener 'default'
+[2025-12-16 16:25:24,552] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:24,553] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-S6-504, state=connected)>'
+[2025-12-16 16:25:24,553] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:24,553] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:26,640] amqtt.broker {broker.py:74} INFO - Listener 'default': 15/\u221e connections acquired
+[2025-12-16 16:25:26,641] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:51316 on listener 'default'
+[2025-12-16 16:25:26,641] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:26,641] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-S7-272, state=connected)>'
+[2025-12-16 16:25:26,641] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:26,641] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:28,622] amqtt.broker {broker.py:74} INFO - Listener 'default': 16/\u221e connections acquired
+[2025-12-16 16:25:28,623] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:51321 on listener 'default'
+[2025-12-16 16:25:28,623] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:28,623] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-S8-31, state=connected)>'
+[2025-12-16 16:25:28,623] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:28,623] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:30,612] amqtt.broker {broker.py:74} INFO - Listener 'default': 17/\u221e connections acquired
+[2025-12-16 16:25:30,612] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:51324 on listener 'default'
+[2025-12-16 16:25:30,613] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:30,613] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-S9-240, state=connected)>'
+[2025-12-16 16:25:30,613] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:30,614] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
+[2025-12-16 16:25:32,661] amqtt.broker {broker.py:74} INFO - Listener 'default': 18/\u221e connections acquired
+[2025-12-16 16:25:32,661] amqtt.broker {broker.py:450} INFO - Connection from 127.0.0.1:51329 on listener 'default'
+[2025-12-16 16:25:32,662] transitions.core {core.py:137} INFO - Finished processing state new exit callbacks.
+[2025-12-16 16:25:32,662] transitions.core {core.py:1175} INFO - Executed callback '<bound method Session._on_enter_connected of Session(clientId=G2021231020-S10-212, state=connected)>'
+[2025-12-16 16:25:32,662] transitions.core {core.py:131} INFO - Finished processing state connected enter callbacks.
+[2025-12-16 16:25:32,663] amqtt.broker.plugins.event_logger_plugin {logging_amqtt.py:23} INFO - ### 'on_broker_client_connected' EVENT FIRED ###
