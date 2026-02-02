@@ -76,7 +76,7 @@ python shelves.py G2021231020 storage-b S6 5
 ... (Repeat for S1-S5 in storage-a and S6-S10 in storage-b)
 ```
 
-**optional: MQTT Debugger**
+**6. MQTT Debugger**
 ```cmd
 python mqtt_debugger.py G2021231020
 ```
