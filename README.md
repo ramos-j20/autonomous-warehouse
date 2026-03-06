@@ -1,4 +1,4 @@
-# Warehouse IIoT System
+# Warehouse IIoT Autonomous System
 
 This project implements a simulated Industrial IoT (IIoT) system for an autonomous warehouse. It includes Autonomous Mobile Robots (AMRs), Smart Shelves, a central Gateway, a Fleet Coordinator, and a System Monitor.
 
