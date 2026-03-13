@@ -81,7 +81,7 @@ python shelves.py G2021231020 storage-b S6 5
 python mqtt_debugger.py G2021231020
 ```
 
-### 2. Inject an Order (See things change!)
+### 2. Inject an Order 
 To send orders, run the interactive injector:
 
 ```cmd
